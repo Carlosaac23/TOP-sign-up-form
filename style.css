@@ -158,6 +158,15 @@ input:invalid {
   padding: 12px 36px;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   cursor: pointer;
+  transition: transform 0.15s ease-out;
+}
+
+.form__btn:hover {
+  opacity: 0.8;
+}
+
+.form__btn:active {
+  transform: scale(0.97);
 }
 
 .form__question {
