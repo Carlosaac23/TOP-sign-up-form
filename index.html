@@ -28,46 +28,52 @@
           This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to
           get started.
         </p>
-        <div class="main__fom-text-2">You <em>know</em> you want to.</div>
+        <p class="main__form-text-2">You <em>know</em> you want to.</p>
 
         <form action="" method="get">
           <fieldset>
             <h2>Let's do this!</h2>
 
-            <div>
-              <label for="first-name">First Name</label>
-              <input type="text" name="first-name" id="first-name" required />
+            <div class="form__row">
+              <div>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" required />
+              </div>
+
+              <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" />
+              </div>
             </div>
 
-            <div>
-              <label for="last-name">Last Name</label>
-              <input type="text" name="last-name" id="last-name" />
+            <div class="form__row">
+              <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required />
+              </div>
+
+              <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" required />
+              </div>
             </div>
 
-            <div>
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email" required />
-            </div>
+            <div class="form__row">
+              <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required />
+              </div>
 
-            <div>
-              <label for="phone">Phone Number</label>
-              <input type="tel" name="phone" id="phone" required />
-            </div>
-
-            <div>
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" required />
-            </div>
-
-            <div>
-              <label for="confirm-password">Confirm Password</label>
-              <input type="password" name="confirm-password" id="confirm-password" required />
+              <div>
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" name="confirm-password" id="confirm-password" required />
+              </div>
             </div>
           </fieldset>
 
-          <button type="submit">Create Account</button>
+          <button class="form__btn" type="submit">Create Account</button>
 
-          <p>Already have an acount? <a href="#">Log in</a></p>
+          <p class="form__question">Already have an acount? <a href="#">Log in</a></p>
         </form>
       </div>
     </main>
