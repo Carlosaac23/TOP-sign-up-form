@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+  font-family: 'Norse Bold';
+  src: url('./fonts/Norse-Bold.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #ededed;
+  --font-color: #1f1f1f;
+  --green: #596d48;
+  --border-color: #e5e7eb;
+  --red: #ef4444;
+  --blue: #0ea5e9;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: var(--font-color);
+  background-color: var(--bg-color);
+  max-height: 100vh;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__bg {
+  width: 700px;
+  position: relative;
+}
+
+.main__bg-img-container {
+  width: 100%;
+}
+
+.main__bg-img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 100vh;
+}
+
+.main__bg-logo-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+}
+
+.main__bg-logo {
+  width: 140px;
+  height: auto;
+}
+
+.main__bg-logo-container p {
+  color: #ffffff;
+  font-family: 'Norse Bold';
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+.thanks {
+  font-size: 14px;
+  position: absolute;
+  color: #ffffff;
+  bottom: 16px;
+  left: 200px;
+}
+
+.thanks a {
+  color: #ffffff;
+}
